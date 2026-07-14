@@ -78,5 +78,31 @@ nav ul{
     border-radius: 8 px;
     font-weight: bold;
 }
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.search-form input,
+.search-form select{
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    width: 220px
+}
+.search-form button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 

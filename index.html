@@ -35,6 +35,35 @@
                 <h1 class="hero-title">Find Your Next Home</h1>
                 <p class="hero-description">Rent apartments, villas and houses with ease.</p>
                 <a class="hero-btn" href="listings.html">Search Properties</a>
+                <form class="search-form">
+                    <div class = "form-group">
+                        <label for="location">Location</label>
+                        <input id="location" type="text"
+                        name="location"
+                        placeholder="Enter city or locality"
+                        required>
+                    </div>
+                    <div class=""form-group>
+                        <label for="property-type">Property Type</label>
+                        <select name="propertyType" id="property-type">
+                            <option value="Select"></option>
+                            <option value="apartment">Apartment</option>
+                            <option value="villa">Villa</option>
+                            <option value="house">House</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget</label>
+                        <select name="budget" id="budget">
+                            <option value="10000">₹10,000</option>
+                            <option value="20000">₹20,000</option>
+                            <option value="30000">₹30,000</option>
+                        </select>
+
+                    </div>
+                    <button type="submit">Search</button>
+
+                </form>
             </section>
 
         </main>
