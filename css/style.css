@@ -23,7 +23,6 @@ p{
 a{
     background-color: #2563eb;
     color: #1f2937;
-    text-decoration: none;
     padding: 12px 24px;
     border-radius: 8px;
     margin: 20px;
@@ -37,7 +36,7 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-    gap: 30px
+    gap: 30px;
 }
 .auth-links{
     display: flex;
@@ -93,7 +92,7 @@ nav ul{
     padding: 12px;
     border: 1px solid #d1d5db;
     border-radius: 8px;
-    width: 220px
+    width: 220px;
 }
 .search-form button{
     padding: 12px 24px;
@@ -172,7 +171,7 @@ nav ul{
 }
 .category-grid{
     display: grid;
-    grid-template-columns: reapeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 .category-card{
@@ -183,12 +182,17 @@ nav ul{
     box-shadow: 0 12px 30px rgba(0,0,0,.18);
     cursor: pointer;
     transition: transform 0.3s ease,
-    box-shadow 0.3s ease;
+                box-shadow 0.3s ease;
 }
 .category-card:hover{
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.18);
-
+}
+.nav-links a.active{
+    color: #2563eb;
+    font-weight: bold;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 4px;
 }
 
 
