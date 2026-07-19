@@ -211,7 +211,6 @@ nav ul{
     color: #1f2937;
     margin-bottom: 50px;
 }
-
 .feature-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -227,7 +226,6 @@ nav ul{
     transition: transform 0.3s ease,
     box-shadow 0.3 ease;
 }
-
 .feature-card h3{
     font-size: 24px;
     color: #1f2937;
@@ -238,17 +236,14 @@ nav ul{
     color: #6b7280;
     line-height: 1.6;
 }
-
 .feature-card:hover{
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
-
 .stats{
     padding: 80px 60px;
     background-color: #2563eb;
 }
-
 .stats-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -264,9 +259,46 @@ nav ul{
     font-size: 42px;
     margin-bottom: 10px;
 }
-
 .stat-card p{
     color: #dbeafe;
     font-size: 18px;
+}
+.testimonials{
+    padding: 80px 60px;
+    background-color: #f8fafc;
+}
+.testimonials h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.testimonial-card{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+.testimonial-card p{
+    color: #4b5563;
+    font-style: italic;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.testimonial-card h4{
+    color: #2563eb;
+    font-size: 18px;
+}
+.testimonial-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
