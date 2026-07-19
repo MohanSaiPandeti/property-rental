@@ -244,3 +244,29 @@ nav ul{
     box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
+.stats{
+    padding: 80px 60px;
+    background-color: #2563eb;
+}
+
+.stats-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.stat-card{
+    text-align: center;
+}
+
+.stat-card h2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.stat-card p{
+    color: #dbeafe;
+    font-size: 18px;
+}
+
